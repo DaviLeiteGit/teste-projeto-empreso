@@ -46,6 +46,11 @@ public class Main {
 
             opcao =  sc.nextInt();
             sc.nextLine();
+            if(opcao == 0){
+                System.out.println("Saindo");
+                sc.close();
+                return;
+            }
             System.out.print("Informe o mês (1-12): ");
             int mes = sc.nextInt();
             System.out.print("Informe o ano: ");
@@ -86,7 +91,6 @@ public class Main {
                     break;
 
                 case 6:
-                    // Filtrar apenas os vendedores da lista de funcionários
                     List<Vendedor> vendedores = new ArrayList<>();
                     for (Funcionario f : funcionarios) {
                         if (f.getCargo() instanceof Vendedor) {
@@ -100,10 +104,6 @@ public class Main {
                     } else {
                         System.out.println("Nenhum vendedor encontrado.");
                     }
-                    break;
-
-                case 0:
-                    System.out.println("Saindo");
                     break;
 
                 default:
