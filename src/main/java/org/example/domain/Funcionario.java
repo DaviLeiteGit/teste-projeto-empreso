@@ -1,4 +1,4 @@
-package entities;
+package org.example.domain;
 import java.time.LocalDate;
 
 public class Funcionario {

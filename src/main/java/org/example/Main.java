@@ -1,10 +1,10 @@
 package org.example;
 
-import entities.Funcionario;
-import entities.Gerente;
-import entities.Secretario;
-import entities.Vendedor;
-import service.FuncionarioServicec;
+import org.example.domain.Funcionario;
+import org.example.domain.Gerente;
+import org.example.domain.Secretario;
+import org.example.domain.Vendedor;
+import org.example.service.FuncionarioServicec;
 
 import java.time.LocalDate;
 import java.util.*;

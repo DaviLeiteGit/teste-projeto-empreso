@@ -1,7 +1,7 @@
-package service;
+package org.example.service;
 
-import entities.Funcionario;
-import entities.Vendedor;
+import org.example.domain.Funcionario;
+import org.example.domain.Vendedor;
 
 import java.util.List;
 

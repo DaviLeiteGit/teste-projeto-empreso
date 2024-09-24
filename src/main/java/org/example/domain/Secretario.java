@@ -1,4 +1,4 @@
-package entities;
+package org.example.domain;
 
 public class Secretario implements Cargo{
     private static final double SALARIO_BASE = 7000;
